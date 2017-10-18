@@ -1,0 +1,287 @@
+body {
+  font-family: 'Open Sans';
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+	max-width: 960px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header {
+	overflow: hidden;
+}
+
+
+
+#logoimg {
+    width: 273px;
+	height: 195px;
+    display: block;
+    margin: 11px auto;
+	float: left;
+}
+
+nav ul,
+nav ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+    padding: 8px 5px;
+    box-sizing: border-box;
+	float: right;
+          padding: 0;
+        margin: 160px 0 0 0;
+        background-color: white;
+}
+
+#admin-login-menu {
+    padding: 0px 19px;
+    float: left;
+    border-right: 1px solid lightgrey;
+    margin: 160px 0 0 0;
+    background-color: white;
+}
+
+nav ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  float: left;
+  font-size: 18px;
+ }
+
+ nav ul li + li {
+  margin-left: 22px;
+ }
+
+ nav ul li a {
+   color: black;
+   text-decoration: none;
+ }
+
+ nav ul li:not(:first-child) {
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
+  }
+ 
+ nav ul li a:hover {
+   opacity: 0.5;
+ }
+ 
+ .active {
+     font-weight: bold;
+ }
+
+
+.imgcontainer {
+     position: relative;
+     margin-bottom: 22px;
+}
+
+#mainimg {
+    margin-top: 22px;
+    width: 100%;
+    height: auto;
+    border: solid 1px rgba(100, 0, 50, 0.5);
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+h1 {font-weight: 400;
+    color: black;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 33px;
+    padding: 0 0 22px 33px;
+}
+
+h1 a {
+    font-size: 11px;
+    font-weight: 300;}
+
+#pagecontainer h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+#pagecontainer {
+	margin-bottom: 22px;
+}
+
+#pagecontainer p {
+  margin: 0;
+  margin-bottom: 22px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+ul {
+	 list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+ul.grid,
+ul.grid li {
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
+
+ul.grid p {
+  margin: 0;
+  font-size: 11px;
+  line-height: 20px;
+}
+
+ul.grid {
+  overflow: hidden;
+  margin: -11px;
+}
+
+ul.grid li .inner {
+  padding: 11px;
+  border: solid 2px #7a91a9;
+  margin: 11px;
+  background-color: #f2ede7;
+}
+
+ul.grid li:hover{
+  filter: blur(2px);
+  transition: 0.2s;
+} 
+
+ul.grid li {
+    width: 25%;
+	float: left;
+  }
+
+.sixboximg {
+    border: solid 1px #7a91a9;
+	margin: 0;
+    padding: 0;
+	height: 70px;
+	background-color: lightgray;
+}
+
+.inner h3 {
+  padding: 0;
+  margin: 8px 0 4px 0;
+}
+
+
+.form {
+        position: absolute;
+        top: 228px;
+        right: 33px;
+	width: 150px;
+	padding: 0;
+        display: box;
+	margin-bottom: 22px;
+}
+
+.submit {
+    padding: 4px;
+}
+
+fieldset {
+	float: right;
+}
+
+input {
+  margin-top: 6px;
+  margin-bottom: 11px;
+  border-radius: 0;
+  box-sizing: border-box;
+  padding: 3px 0 3px 2px;
+}
+
+
+.reserveBtn {
+	width: 75px;
+	margin: 0;
+	position: absolute;
+	bottom: 22px;
+	right: 33px;
+}
+
+.book {
+	padding: 10px;
+	border: solid gray 0.5px;
+	width: 70%;
+	position: relative;
+}
+
+
+h3 {
+	font-size: 33px;
+}
+
+.MyBookli {
+	border: solid 1px black;
+    padding-left: 11px;
+	margin-bottom: 22px;
+	width: 500px;
+	
+}
+
+.return {
+	width: 66px;
+	margin-bottom: 22px;
+	display: initial;
+	
+}
+
+.contactform {
+    padding: 0;
+    width: 100%;
+    float: none;
+    display: inline-block;
+    margin: 22px;
+    margin-left: -22px;
+   
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    line-height: 22px;
+    font-weight: 300;
+}
+
+figure h2 {
+  padding: 0;
+  margin: 33px 0 8px 0; 
+  font-size: 16px;
+}
+
+article {
+  margin-bottom: 66px;
+  margin-top: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer {
+  width: 100%;
+  background-color: lightgray;
+  font-size: 10px;
+  padding: 4px 0 4px 22px;
+  box-sizing: border-box;
+  
+}
